@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Mrigna Nagpal, BCA student and aspiring developer from Delhi NCR.">
+  <title>Mrigna Nagpal | Portfolio</title>
+
+  <!-- Google Font (works online; falls back to system fonts offline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#home" class="logo">Mrigna Nagpal</a>
+
+      <!-- CSS-only mobile menu: the checkbox toggles the links -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-button" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-intro">Hi, I'm</p>
+          <h1>Mrigna Nagpal</h1>
+          <p class="hero-role">BCA student and aspiring developer. I build with Python, C and frontend web design.</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View my projects</a>
+            <a href="#contact" class="btn btn-outline">Contact me</a>
+          </div>
+        </div>
+
+        <!-- To use your photo: put me.jpg in this folder and replace MN with
+             <img src="me.jpg" alt="Photo of Mrigna Nagpal"> -->
+        <div class="hero-photo" aria-hidden="true">MN</div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About me</h2>
+        <div class="about-grid">
+          <div>
+            <p>
+              I'm a first-year Bachelor of Computer Applications (BCA) student at
+              <strong>Guru Gobind Singh Indraprastha University</strong>, Delhi NCR.
+              I'm passionate about technology, coding and creative problem-solving.
+            </p>
+            <p>
+              I have hands-on project experience in Python, C and frontend web
+              design. I'm eager to apply my skills in a practical development
+              environment and keep learning along the way.
+            </p>
+          </div>
+
+          <ul class="facts">
+            <li><span>Education</span> BCA, 2025 – 2028</li>
+            <li><span>Location</span> Delhi NCR, India</li>
+            <li><span>Focus</span> Web development, programming fundamentals</li>
+            <li><span>Activities</span> College technical events, cultural activities, networking programs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Programming</h3>
+            <ul>
+              <li>C</li>
+              <li>C++</li>
+              <li>Python</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Tools &amp; platforms</h3>
+            <ul>
+              <li>VS Code</li>
+              <li>MySQL</li>
+              <li>MS Office</li>
+              <li>Canva</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Soft skills</h3>
+            <ul>
+              <li>Communication</li>
+              <li>Teamwork</li>
+              <li>Creativity</li>
+              <li>Adaptability</li>
+              <li>Time management</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="section-note">Academic and independent projects, Aug 2025 – present.</p>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-banner banner-1">Project 1</div>
+            <div class="project-body">
+              <h3>Portfolio Website</h3>
+              <p>A fully responsive personal portfolio built with HTML and CSS to showcase my technical projects and personal background. You're looking at it.</p>
+              <p class="tags">HTML · CSS · Responsive design</p>
+              <!-- Add your link once the code is on GitHub:
+              <a href="YOUR-GITHUB-LINK" class="project-link" target="_blank" rel="noopener">View on GitHub</a> -->
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-banner banner-2">Project 2</div>
+            <div class="project-body">
+              <h3>Student Marks Calculator</h3>
+              <p>A console-based application in C/Python that automates percentage computations and grade calculations using structured programming logic.</p>
+              <p class="tags">C · Python · Console app</p>
+              <!-- Add your link once the code is on GitHub:
+              <a href="YOUR-GITHUB-LINK" class="project-link" target="_blank" rel="noopener">View on GitHub</a> -->
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <h2>Education</h2>
+        <ul class="timeline">
+          <li class="timeline-item">
+            <p class="timeline-year">2025 – 2028</p>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p>Guru Gobind Singh Indraprastha University, Delhi NCR</p>
+            <p class="timeline-detail">Coursework: Programming Fundamentals, DBMS, Web Development, Computer Applications</p>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-year">2024 – 2025</p>
+            <h3>Senior Secondary (Class XII), CBSE</h3>
+            <p>Ryan International School, Delhi NCR</p>
+            <p class="timeline-detail">81%</p>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-year">2022 – 2023</p>
+            <h3>Secondary (Class X), CBSE</h3>
+            <p>Ryan International School, Delhi NCR</p>
+            <p class="timeline-detail">83%</p>
+          </li>
+        </ul>
+
+        <h2 class="subheading">Certifications</h2>
+        <ul class="cert-list">
+          <li>Introduction to Python <span>Coursera</span></li>
+          <li>AI Certification <span>IBM</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section">
+      <div class="container contact-wrap">
+        <h2>Contact</h2>
+        <p>Have an opportunity or a question? Send me a message.</p>
+
+        <!-- Opens the visitor's email app addressed to Mrigna -->
+        <form class="contact-form" action="mailto:nagpal.mrigna@gmail.com" method="post" enctype="text/plain">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+
+        <p class="social-links">
+          <a href="https://www.linkedin.com/in/mrigna-nagpal" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:nagpal.mrigna@gmail.com">nagpal.mrigna@gmail.com</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <p>&copy; 2026 Mrigna Nagpal. Built with HTML and CSS.</p>
+  </footer>
+
+</body>
+</html>
